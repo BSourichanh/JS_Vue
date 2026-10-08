@@ -42,3 +42,6 @@ coverage/
 cypress/videos/
 cypress/screenshots/
 __screenshots__/
+
+# Documentation interne
+RECAPITULATIF.md

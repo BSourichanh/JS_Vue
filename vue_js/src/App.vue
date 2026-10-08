@@ -1,10 +1,5 @@
 <script>
-import CitiesList from './views/CitiesList.vue';
-
 export default {
-  components: {
-    CitiesList
-  },
   methods: {
     onListClick() {
       alert("Clic sur la liste des données météo !")
@@ -19,8 +14,12 @@ export default {
     <a href="#" @click.prevent="onListClick">
       Voir les données météo des villes
     </a>
-    <hr/>
-    <CitiesList/>
+
+    <hr />
+
+    <!-- Affiche dynamiquement le composant selon l'URL active -->
+    <router-view></router-view>
   </main>
 </template>
+
 <style scoped></style>
