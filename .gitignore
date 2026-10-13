@@ -45,3 +45,6 @@ __screenshots__/
 
 # Documentation interne
 RECAPITULATIF.md
+
+# Fichiers de compression générés
+*.gz

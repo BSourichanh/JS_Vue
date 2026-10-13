@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4600 1150" width="4600" height="1150" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <style>
+      .frame { fill: #FFFFFF; stroke: #D1D5DB; stroke-width: 2; rx: 8; }
+      .header { fill: #1F2937; }
+      .text-white { fill: #FFFFFF; font-weight: bold; }
+      .text-muted { fill: #6B7280; font-size: 14px; }
+      .text-dark { fill: #111827; font-size: 16px; font-weight: 600; }
+      .card { fill: #F9FAFB; stroke: #E5E7EB; stroke-width: 1.5; rx: 6; }
+      .poster-box { fill: #E5E7EB; stroke: #D1D5DB; stroke-width: 1; rx: 4; }
+      .btn-primary { fill: #2563EB; rx: 6; }
+      .btn-secondary { fill: #E5E7EB; stroke: #D1D5DB; stroke-width: 1; rx: 6; }
+      .input-box { fill: #FFFFFF; stroke: #D1D5DB; stroke-width: 1.5; rx: 6; }
+      .badge { fill: #EEF2F6; rx: 4; }
+      .title-frame { font-size: 24px; font-weight: bold; fill: #111827; }
+    </style>
+  </defs>
+
+  <!-- ==================== SCREEN 1 : LISTING ==================== -->
+  <g id="screen-listing" transform="translate(50, 50)">
+    <text x="0" y="-15" class="title-frame">1. Page Listing des Films (Accueil)</text>
+    <rect width="1440" height="1000" class="frame" />
+
+    <!-- Navbar -->
+    <rect width="1440" height="70" class="header" />
+    <text x="50" y="44" class="text-white" font-size="22">🎬 CinéCritique</text>
+    <!-- Search Bar -->
+    <rect x="350" y="15" width="500" height="40" class="input-box" />
+    <text x="370" y="40" class="text-muted">🔍 Rechercher un film (ex: Batman, Inception...)</text>
+    <!-- User button -->
+    <rect x="1270" y="15" width="120" height="40" class="btn-primary" />
+    <text x="1285" y="40" class="text-white" font-size="14">Connexion</text>
+
+    <!-- Genres filter -->
+    <text x="50" y="115" class="text-dark" font-size="18">Genres populaires :</text>
+    <rect x="220" y="95" width="70" height="32" class="btn-primary" />
+    <text x="235" y="116" class="text-white" font-size="13">Tous</text>
+    <rect x="305" y="95" width="80" height="32" class="btn-secondary" />
+    <text x="323" y="116" fill="#374151" font-size="13">Action</text>
+    <rect x="395" y="95" width="90" height="32" class="btn-secondary" />
+    <text x="410" y="116" fill="#374151" font-size="13">Comédie</text>
+    <rect x="495" y="95" width="95" height="32" class="btn-secondary" />
+    <text x="510" y="116" fill="#374151" font-size="13">Animation</text>
+    <rect x="600" y="95" width="75" height="32" class="btn-secondary" />
+    <text x="618" y="116" fill="#374151" font-size="13">Drame</text>
+    <rect x="685" y="95" width="80" height="32" class="btn-secondary" />
+    <text x="702" y="116" fill="#374151" font-size="13">Sci-Fi</text>
+
+    <!-- Grid of 8 Cards (4 cols x 2 rows) -->
+    <!-- Row 1 -->
+    <g transform="translate(50, 160)">
+      <!-- Card 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="310" height="340" class="card" />
+        <rect x="15" y="15" width="280" height="200" class="poster-box" />
+        <text x="110" y="125" class="text-muted" font-size="16">📷 Affiche Film</text>
+        <text x="15" y="245" class="text-dark">Inside Out</text>
+        <text x="15" y="270" class="text-muted">2015 • Animation, Aventure</text>
+        <text x="15" y="305" fill="#D97706" font-weight="bold">★ 8.2 / 10</text>
+        <text x="95" y="305" class="text-muted">(120 avis)</text>
+      </g>
+      <!-- Card 2 -->
+      <g transform="translate(340, 0)">
+        <rect width="310" height="340" class="card" />
+        <rect x="15" y="15" width="280" height="200" class="poster-box" />
+        <text x="110" y="125" class="text-muted" font-size="16">📷 Affiche Film</text>
+        <text x="15" y="245" class="text-dark">The Dark Knight</text>
+        <text x="15" y="270" class="text-muted">2008 • Action, Crime</text>
+        <text x="15" y="305" fill="#D97706" font-weight="bold">★ 9.0 / 10</text>
+        <text x="95" y="305" class="text-muted">(450 avis)</text>
+      </g>
+      <!-- Card 3 -->
+      <g transform="translate(680, 0)">
+        <rect width="310" height="340" class="card" />
+        <rect x="15" y="15" width="280" height="200" class="poster-box" />
+        <text x="110" y="125" class="text-muted" font-size="16">📷 Affiche Film</text>
+        <text x="15" y="245" class="text-dark">Inception</text>
+        <text x="15" y="270" class="text-muted">2010 • Sci-Fi, Action</text>
+        <text x="15" y="305" fill="#D97706" font-weight="bold">★ 8.8 / 10</text>
+        <text x="95" y="305" class="text-muted">(380 avis)</text>
+      </g>
+      <!-- Card 4 -->
+      <g transform="translate(1020, 0)">
+        <rect width="310" height="340" class="card" />
+        <rect x="15" y="15" width="280" height="200" class="poster-box" />
+        <text x="110" y="125" class="text-muted" font-size="16">📷 Affiche Film</text>
+        <text x="15" y="245" class="text-dark">Interstellar</text>
+        <text x="15" y="270" class="text-muted">2014 • Sci-Fi, Drame</text>
+        <text x="15" y="305" fill="#D97706" font-weight="bold">★ 8.6 / 10</text>
+        <text x="95" y="305" class="text-muted">(310 avis)</text>
+      </g>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(50, 530)">
+      <g transform="translate(0, 0)"><rect width="310" height="340" class="card" /><rect x="15" y="15" width="280" height="200" class="poster-box" /><text x="110" y="125" class="text-muted" font-size="16">📷 Affiche Film</text><text x="15" y="245" class="text-dark">Pulp Fiction</text><text x="15" y="270" class="text-muted">1994 • Crime, Drame</text><text x="15" y="305" fill="#D97706" font-weight="bold">★ 8.9 / 10</text></g>
+      <g transform="translate(340, 0)"><rect width="310" height="340" class="card" /><rect x="15" y="15" width="280" height="200" class="poster-box" /><text x="110" y="125" class="text-muted" font-size="16">📷 Affiche Film</text><text x="15" y="245" class="text-dark">Fight Club</text><text x="15" y="270" class="text-muted">1999 • Drame</text><text x="15" y="305" fill="#D97706" font-weight="bold">★ 8.8 / 10</text></g>
+      <g transform="translate(680, 0)"><rect width="310" height="340" class="card" /><rect x="15" y="15" width="280" height="200" class="poster-box" /><text x="110" y="125" class="text-muted" font-size="16">📷 Affiche Film</text><text x="15" y="245" class="text-dark">Forrest Gump</text><text x="15" y="270" class="text-muted">1994 • Drame, Romance</text><text x="15" y="305" fill="#D97706" font-weight="bold">★ 8.8 / 10</text></g>
+      <g transform="translate(1020, 0)"><rect width="310" height="340" class="card" /><rect x="15" y="15" width="280" height="200" class="poster-box" /><text x="110" y="125" class="text-muted" font-size="16">📷 Affiche Film</text><text x="15" y="245" class="text-dark">The Matrix</text><text x="15" y="270" class="text-muted">1999 • Sci-Fi, Action</text><text x="15" y="305" fill="#D97706" font-weight="bold">★ 8.7 / 10</text></g>
+    </g>
+
+    <!-- Pagination -->
+    <g transform="translate(560, 910)">
+      <rect x="0" y="0" width="110" height="40" class="btn-secondary" />
+      <text x="18" y="25" fill="#374151" font-size="14">‹ Précédent</text>
+      <text x="140" y="25" class="text-dark" font-size="15">Page 1 sur 196</text>
+      <rect x="250" y="0" width="100" height="40" class="btn-secondary" />
+      <text x="270" y="25" fill="#374151" font-size="14">Suivant ›</text>
+    </g>
+  </g>
+
+  <!-- ==================== SCREEN 2 : DETAIL FILM ==================== -->
+  <g id="screen-detail" transform="translate(1550, 50)">
+    <text x="0" y="-15" class="title-frame">2. Page Détail d&#39;un Film (avec Notes &amp; Critiques)</text>
+    <rect width="1440" height="1000" class="frame" />
+
+    <!-- Navbar -->
+    <rect width="1440" height="70" class="header" />
+    <text x="50" y="44" class="text-white" font-size="22">🎬 CinéCritique</text>
+    <rect x="350" y="15" width="500" height="40" class="input-box" />
+    <text x="370" y="40" class="text-muted">🔍 Rechercher un film...</text>
+    <text x="1280" y="42" class="text-white" font-size="15">👤 Mon Profil</text>
+
+    <!-- Back button -->
+    <text x="50" y="110" fill="#2563EB" font-size="15" font-weight="bold">← Retour à la liste des films</text>
+
+    <!-- Movie Hero Section -->
+    <g transform="translate(50, 140)">
+      <!-- Large Poster -->
+      <rect width="280" height="420" class="poster-box" />
+      <text x="85" y="215" class="text-muted" font-size="18">📷 Affiche HD</text>
+
+      <!-- Info Column -->
+      <g transform="translate(320, 10)">
+        <text x="0" y="25" font-size="30" font-weight="bold" fill="#111827">Inside Out (2015)</text>
+        <text x="0" y="60" class="text-muted" font-size="16">Animation, Aventure, Comédie • 1h 35min • USA</text>
+
+        <!-- Ratings block -->
+        <g transform="translate(0, 90)">
+          <rect width="520" height="60" fill="#F3F4F6" rx="6" />
+          <text x="20" y="38" fill="#D97706" font-size="20" font-weight="bold">★ 8.2 / 10</text>
+          <text x="125" y="36" class="text-muted">Moyenne CinéCritique</text>
+          <line x1="300" y1="12" x2="300" y2="48" stroke="#D1D5DB" stroke-width="1.5" />
+          <text x="325" y="38" fill="#111827" font-size="18" font-weight="bold">IMDb : 8.6</text>
+          <text x="430" y="36" class="text-muted">(108k votes)</text>
+        </g>
+
+        <!-- Directors & Cast -->
+        <text x="0" y="190" class="text-dark">Réalisateur(s) :</text>
+        <text x="130" y="190" fill="#374151" font-size="15">Pete Docter, Ronaldo Del Carmen</text>
+
+        <text x="0" y="225" class="text-dark">Acteurs principaux :</text>
+        <text x="160" y="225" fill="#374151" font-size="15">Amy Poehler, Phyllis Smith, Richard Kind, Bill Hader</text>
+
+        <!-- Synopsis -->
+        <text x="0" y="270" class="text-dark">Synopsis :</text>
+        <text x="0" y="300" fill="#4B5563" font-size="15" width="700">Après avoir quitté le Midwest pour San Francisco, la jeune Riley voit ses émotions</text>
+        <text x="0" y="325" fill="#4B5563" font-size="15">entrer en conflit : Joie, Peur, Colère, Dégoût et Tristesse tentent de cohabiter...</text>
+
+        <!-- User Action: Rate Movie -->
+        <g transform="translate(0, 360)">
+          <rect width="600" height="60" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5" rx="6" />
+          <text x="20" y="36" class="text-dark">⭐ Votre note :</text>
+          <rect x="130" y="15" width="80" height="32" class="input-box" />
+          <text x="155" y="36" font-weight="bold">8 / 10</text>
+          <rect x="230" y="15" width="130" height="32" class="btn-primary" />
+          <text x="250" y="36" class="text-white" font-size="13">Enregistrer</text>
+          <rect x="380" y="15" width="180" height="32" class="btn-secondary" />
+          <text x="395" y="36" fill="#374151" font-size="13">+ Ajouter collection</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Reviews Section -->
+    <g transform="translate(50, 600)">
+      <line x1="0" y1="0" x2="1340" y2="0" stroke="#E5E7EB" stroke-width="1.5" />
+      <text x="0" y="40" font-size="22" font-weight="bold" fill="#111827">Critiques de la communauté (2)</text>
+
+      <!-- Review 1 -->
+      <g transform="translate(0, 65)">
+        <rect width="1340" height="95" class="card" />
+        <text x="20" y="35" class="text-dark">👤 ThomasB • Note : ★ 9/10</text>
+        <text x="1200" y="35" class="text-muted">Il y a 3 jours</text>
+        <text x="20" y="70" fill="#374151" font-size="15">"Un chef-d'oeuvre d'animation d'une inventivité folle. Touchant autant les petits que les grands !"</text>
+      </g>
+
+      <!-- Write review form -->
+      <g transform="translate(0, 180)">
+        <text x="0" y="25" class="text-dark" font-size="17">Écrire une critique :</text>
+        <rect x="0" y="40" width="1340" height="90" class="input-box" />
+        <text x="20" y="75" class="text-muted">Partagez votre avis sur ce film...</text>
+        <rect x="0" y="145" width="180" height="40" class="btn-primary" />
+        <text x="25" y="170" class="text-white" font-size="14">Publier ma critique</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== SCREEN 3 : AUTHENTICATION ==================== -->
+  <g id="screen-auth" transform="translate(3050, 50)">
+    <text x="0" y="-15" class="title-frame">3. Page Authentification (Connexion / Inscription)</text>
+    <rect width="1440" height="1000" class="frame" />
+
+    <!-- Navbar -->
+    <rect width="1440" height="70" class="header" />
+    <text x="50" y="44" class="text-white" font-size="22">🎬 CinéCritique</text>
+    <text x="1280" y="42" fill="#9CA3AF" font-size="15">← Retour</text>
+
+    <!-- Centered Login Card -->
+    <g transform="translate(470, 200)">
+      <rect width="500" height="580" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" rx="12" filter="drop-shadow(0 10px 15px rgba(0,0,0,0.05))" />
+
+      <!-- Tabs Connexion / Inscription -->
+      <rect x="30" y="40" width="215" height="45" fill="#2563EB" rx="6" />
+      <text x="85" y="68" class="text-white" font-size="16">Se connecter</text>
+      <rect x="255" y="40" width="215" height="45" fill="#F3F4F6" rx="6" />
+      <text x="325" y="68" fill="#4B5563" font-size="16">Créer un compte</text>
+
+      <!-- Fields -->
+      <text x="40" y="140" class="text-dark" font-size="14">Adresse email :</text>
+      <rect x="40" y="155" width="420" height="48" class="input-box" />
+      <text x="55" y="185" class="text-muted">test1@test.com</text>
+
+      <text x="40" y="240" class="text-dark" font-size="14">Mot de passe :</text>
+      <rect x="40" y="255" width="420" height="48" class="input-box" />
+      <text x="55" y="285" fill="#9CA3AF" font-size="18">••••••••••••</text>
+
+      <text x="330" y="325" fill="#2563EB" font-size="13">Mot de passe oublié ?</text>
+
+      <!-- Submit button -->
+      <rect x="40" y="350" width="420" height="50" class="btn-primary" />
+      <text x="195" y="381" class="text-white" font-size="16">Connexion</text>
+
+      <line x1="40" y1="435" x2="460" y2="435" stroke="#E5E7EB" stroke-width="1.5" />
+
+      <!-- Test credentials box -->
+      <rect x="40" y="460" width="420" height="85" fill="#F9FAFB" stroke="#E5E7EB" stroke-width="1" rx="6" />
+      <text x="55" y="485" class="text-dark" font-size="13" font-weight="bold">💡 Comptes de test (API Films) :</text>
+      <text x="55" y="510" class="text-muted">Email : test1@test.com (jusqu'à test9)</text>
+      <text x="55" y="530" class="text-muted">Mot de passe : password</text>
+    </g>
+  </g>
+</svg>
